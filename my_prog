@@ -1,0 +1,13 @@
+Var a, b: Decimal;
+Var d, e: Boolean;
+Begin
+    a := (4 - 1) * 2 / 3;
+    FOR b := 0 TO 5 DO a := a + b;
+    {
+        my
+        comments
+    }
+    d := a .OR. b;
+    e := a < b .XOR. 1;
+    d := .NOT. d .AND. e;
+End

@@ -1,0 +1,4 @@
+#!/bin/bash
+bison -dy parser.y
+flex lexer.l
+gcc funcs.c lex.yy.c y.tab.c -lfl
